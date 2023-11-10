@@ -1,0 +1,34 @@
+{
+  "0417de63-d144-49b3-97b7-7bb350e1c08a": {
+    "connectionRef": {
+      "authenticationType": "mysqlAuthentication",
+      "displayName": "Azure Database for MySQL",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_azuremysql",
+        "appVer": "3.23105.17",
+        "modifiedOn": "2023-11-10 00:31:20",
+        "policy": "{\"type\":\"unused\"}",
+        "version": 1
+      },
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1665/1.0.1665.3485/azuremysql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azuremysql",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_azuremysql/connections/91a8eec01d9543489e4ac936a4a4f2d6",
+      "xrmConnectionReferenceLogicalName": "new_sharedazuremysql_04766"
+    },
+    "datasets": {
+      "wjmonster-mysql.mysql.database.azure.com,daall": {
+        "dataSources": {
+          "daall.url_history": {
+            "tableName": "[daall].[url_history]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "daall.url_history"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0417de63-d144-49b3-97b7-7bb350e1c08a"
+  }
+}

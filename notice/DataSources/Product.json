@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cre6f_products",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cre6f_product",
+    "MaxGetRowsCount": 500,
+    "Name": "Product",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "cre6f_column1": "Title",
+      "cre6f_column2": "Code Name",
+      "cre6f_column3": "Product Line",
+      "cre6f_column4": "Product Type",
+      "cre6f_column5": "Color",
+      "cre6f_column6": "Notes",
+      "cre6f_product_AsyncOperations": "시스템 작업 ",
+      "cre6f_product_BulkDeleteFailures": "대량 삭제 실패 ",
+      "cre6f_product_DuplicateBaseRecord": "중복 레코드  (cre6f_product_DuplicateBaseRecord)",
+      "cre6f_product_DuplicateMatchingRecord": "중복 레코드  (cre6f_product_DuplicateMatchingRecord)",
+      "cre6f_product_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "cre6f_product_PrincipalObjectAttributeAccesses": "필드 공유",
+      "cre6f_product_ProcessSession": "프로세스 세션",
+      "cre6f_product_SyncErrors": "동기화 오류",
+      "cre6f_productid": "Product",
+      "createdby": "만든 사람",
+      "createdon": "만든 날짜",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "Product",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Product (뷰)",
+    "Name": "_cre6f_product_views",
+    "RelatedEntityName": "Product",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1c7e5d19-a103-4fbb-88de-00f84a84647e": "Product 조회 보기",
+      "278718d9-6850-4678-9521-35af1df00f12": "Product 관련 보기",
+      "29d5e01f-5971-4a97-ae4a-41f566515ef0": "활성 Product",
+      "5878247b-8692-4990-a902-92ae0e5a2c68": "비활성 Product",
+      "73dc352e-fef1-4374-8413-453db20fb619": "Product의 상세하게 찾기 보기"
+    }
+  },
+  {
+    "DisplayName": "상태 (Product)_1",
+    "Name": "cre6f_product_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Product"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Product",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (Product)_1",
+    "Name": "cre6f_product_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Product"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Product",
+    "Type": "OptionSetInfo"
+  }
+]
