@@ -6,7 +6,7 @@
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_azuremysql",
         "appVer": "3.23105.17",
-        "modifiedOn": "2023-11-10 00:31:20",
+        "modifiedOn": "2023-11-10 01:28:19",
         "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
