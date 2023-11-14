@@ -127,11 +127,11 @@
 
     Icon1 As icon.ChevronLeft:
         Color: =Color.DarkGray
-        Height: =50
+        Height: =32
         Icon: =Icon.ChevronLeft
         OnSelect: =Back()
-        Width: =50
+        Width: =56
         X: =220
-        Y: =5
+        Y: =16
         ZIndex: =5
 

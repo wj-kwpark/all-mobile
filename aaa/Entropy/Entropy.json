@@ -5,6 +5,7 @@
     "App": 1,
     "btnClear": 32,
     "btnCompare": 33,
+    "Button1": 38,
     "chkCompare": 27,
     "Compare Screen": 4,
     "galleryTemplate1": 29,
@@ -19,6 +20,7 @@
     "IblSubtitle": 26,
     "IblSubtitle_1": 13,
     "Icon1": 8,
+    "id": 36,
     "imgLogo": 20,
     "imgLogo_1": 6,
     "imgMachine": 24,
@@ -34,11 +36,13 @@
     "lbUser": 21,
     "lbUser_1": 7,
     "machineName": 31,
-    "Main Screen": 18
+    "Main Screen": 18,
+    "pw": 37,
+    "Screen1": 35
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/14/2023 07:06:19",
+  "HeaderLastSavedDateTimeUTC": "11/14/2023 07:21:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -72,12 +76,14 @@
     "gallery": 3,
     "icon": 2,
     "image": 1,
-    "label": 0
+    "label": 0,
+    "text": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "btnClear": {},
     "btnCompare": {},
+    "Button1": {},
     "chkCompare": {},
     "Compare Screen": {},
     "galleryTemplate1": {},
@@ -92,6 +98,7 @@
     "IblSubtitle": {},
     "IblSubtitle_1": {},
     "Icon1": {},
+    "id": {},
     "imgLogo": {},
     "imgLogo_1": {},
     "imgMachine": {},
@@ -107,7 +114,9 @@
     "lbUser": {},
     "lbUser_1": {},
     "machineName": {},
-    "Main Screen": {}
+    "Main Screen": {},
+    "pw": {},
+    "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -115,6 +124,7 @@
     "App": 0,
     "btnClear": 14,
     "btnCompare": 15,
+    "Button1": 31,
     "chkCompare": 9,
     "Compare Screen": 3,
     "galleryTemplate1": 11,
@@ -129,6 +139,7 @@
     "IblSubtitle": 8,
     "IblSubtitle_1": 25,
     "Icon1": 20,
+    "id": 29,
     "imgLogo": 1,
     "imgLogo_1": 17,
     "imgMachine": 6,
@@ -144,7 +155,9 @@
     "lbUser": 3,
     "lbUser_1": 19,
     "machineName": 13,
-    "Main Screen": 17
+    "Main Screen": 17,
+    "pw": 30,
+    "Screen1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -162,7 +175,8 @@
       "icon": 1,
       "image": 5,
       "label": 12,
-      "screen": 2
+      "screen": 2,
+      "text": 1
     },
     "DeserializationLoadTime": 0.8180159
   },
