@@ -15,9 +15,10 @@ Screen1 As screen:
         ZIndex: =2
 
     Button1 As button:
-        OnSelect: |-
-            =If(id.Text = "lala", Notify("YES"); Navigate('Main Screen'), Notify("NO") );
+        OnSelect: |+
+            =If(IsBlank(Search('daall.user', id.Text,"USER_ID")), Notify("YES"); Navigate('Main Screen'), Notify("NO") );
             Set(User, id.Text);
+            
         Text: ="login"
         X: =520
         Y: =520
