@@ -7,7 +7,7 @@ Component1 As CanvasComponent:
     ZIndex: =1
 
     Button2 As button:
-        OnSelect: =
+        OnSelect: =App.ActiveScreen
         Text: ="Login"
         X: =55
         Y: =205

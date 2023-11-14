@@ -1,6 +1,7 @@
 {
   "ComponentIndexes": {
-    "Component1": 3
+    "Component1": 3,
+    "Component1_1": 3
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -13,6 +14,7 @@
     "chkCompare": 27,
     "Compare Screen": 4,
     "Component1": 39,
+    "Component1_1": 44,
     "galleryTemplate1": 29,
     "galleryTemplate2": 23,
     "galleryTemplate2_1": 10,
@@ -47,7 +49,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/14/2023 07:45:08",
+  "HeaderLastSavedDateTimeUTC": "11/14/2023 07:52:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "9fb9f2b7-33f0-4b35-ad43-c9315f1b5671": "\"/providers/microsoft.powerapps/apis/shared_azuremysql/connections/91a8eec01d9543489e4ac936a4a4f2d6\""
@@ -101,6 +103,7 @@
     "chkCompare": {},
     "Compare Screen": {},
     "Component1": {},
+    "Component1_1": {},
     "galleryTemplate1": {},
     "galleryTemplate2": {},
     "galleryTemplate2_1": {},
@@ -145,6 +148,7 @@
     "chkCompare": 12,
     "Compare Screen": 3,
     "Component1": 0,
+    "Component1_1": 0,
     "galleryTemplate1": 14,
     "galleryTemplate2": 8,
     "galleryTemplate2_1": 25,
@@ -185,6 +189,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.1472791,
     "ControlCount": {
+      "80139686b60f4ce7b7ff4041d46f6140": 1,
       "button": 4,
       "checkbox": 1,
       "gallery": 3,
