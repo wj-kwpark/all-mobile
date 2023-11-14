@@ -109,11 +109,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "4d0ef61a-376f-4fee-b0de-86d253a7a323",
-    "Id": "4d0ef61a-376f-4fee-b0de-86d253a7a323",
+    "Id": "e2871f50-ff80-438f-b73e-e021102f2bf1",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Machine Ordering App",
+    "Name": "Machine%2BOrdering%2BApp.msapp",
     "OriginatingVersion": "1.335",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
