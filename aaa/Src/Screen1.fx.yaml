@@ -1,20 +1,22 @@
 Screen1 As screen:
 
     id As text:
-        Default: ="텍스트 입력"
+        Default: =
+        HintText: ="id"
         X: =440
         Y: =244
         ZIndex: =1
 
     pw As text:
-        Default: ="텍스트 입력"
+        Default: =
+        HintText: ="pw"
         X: =440
         Y: =342
         ZIndex: =2
 
     Button1 As button:
         OnSelect: |-
-            =If(id.Text = "lala", Notify("YES"), Notify("NO") );
+            =If(id.Text = "lala", Notify("YES"); Navigate('Main Screen'), Notify("NO") );
             Set(User, id.Text);
         Text: ="login"
         X: =520
