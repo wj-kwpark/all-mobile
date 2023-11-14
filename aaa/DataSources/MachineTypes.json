@@ -1,0 +1,22 @@
+[
+  {
+    "Data": "[{\"(Do Not Modify) Machine Type\":\"81f2f0f0-a0cc-ec11-a7b5-000d3a142f68\",\"(Do Not Modify) Modified On\":1651775220000,\"(Do Not Modify) Row Checksum\":\"Sur2VZktFUO1UqN6Vev5xd83wozDgJkizvqwf0KBJd9kjOP42kpxxH72RkQal\\u002BHeIBKkvd1E5CYDFWN6JpNPgQ==\",\"Description\":\"Contoso Coffee Makers are built with quality and determination to bring the best coffee in the world straight to your kitchen.\",\"Name\":\"At Home Coffee Makers\",\"Photo\":\"https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/MAR3N?ver=ed5e\\u0026w=935\\u0026h=471\\u0026q=80\\u0026m=6\\u0026f=jpg\",\"Type ID\":3},{\"(Do Not Modify) Machine Type\":\"82f2f0f0-a0cc-ec11-a7b5-000d3a142f68\",\"(Do Not Modify) Modified On\":1651775220000,\"(Do Not Modify) Row Checksum\":\"sv3vZw3HydYiMKszoMN5R7BKGP3x\\u002BUckrkXn9BsZXedSy8hWqinNAzE4mrZWHGVmNUIiyOWPsHjOap3Bz4g5bA==\",\"Description\":\"Sleek and powerful with first-class programming, the Contoso Home Espresso Machines let beginners and experts alike make a variety of caf\\u00E9-quality espresso drinks at home.\",\"Name\":\"At Home Espresso Machines\",\"Photo\":\"https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/MAR61?ver=e4db\\u0026w=935\\u0026h=471\\u0026q=80\\u0026m=6\\u0026f=jpg\",\"Type ID\":1},{\"(Do Not Modify) Machine Type\":\"84f2f0f0-a0cc-ec11-a7b5-000d3a142f68\",\"(Do Not Modify) Modified On\":1651775220000,\"(Do Not Modify) Row Checksum\":\"gHPegUUJ5mQVKr\\u002Bvv\\u002BigBGQT2QBPASiPRzmMsrivz4dIhtIa7GD1hDN9yJ4DFN3I10lMRTZMStxidXKJVA25JA==\",\"Description\":\"If you\\u0027re looking for a commercial brewer that can make tasty coffee for your business without the hassle of manual devices, look no further than this first-rate lineup.\",\"Name\":\"Commercial Coffee Makers\",\"Photo\":\"https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/MAR6g?ver=217b\\u0026w=935\\u0026h=471\\u0026q=80\\u0026m=6\\u0026f=jpg\",\"Type ID\":4},{\"(Do Not Modify) Machine Type\":\"83f2f0f0-a0cc-ec11-a7b5-000d3a142f68\",\"(Do Not Modify) Modified On\":1651775220000,\"(Do Not Modify) Row Checksum\":\"j9fG\\u002BNhNvzZo/Mxu/4U/vUVYJREQmOkKIArmNUAIS2Q1NCt7rBDATelkB9Tg/48LH42m44WbCr5JsFQRopoUbQ==\",\"Description\":\"At Contoso, we understand that an espresso machine is one of the biggest investments that you\\u2019ll make in your caf\\u00E9. We know that price, performance, reliability, and usability are all key components in selecting the right espresso machine for your commercial \",\"Name\":\"Commercial Espresso Machines\",\"Photo\":\"https://images-us-prod.cms.commerce.dynamics.com/cms/api/qbvttlwqcm/imageFileData/MAR5u?ver=68d8\\u0026w=935\\u0026h=471\\u0026q=80\\u0026m=6\\u0026f=jpg\",\"Type ID\":2}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "MachineTypes",
+    "OrderedColumnNames": [
+      "(Do Not Modify) Machine Type",
+      "(Do Not Modify) Row Checksum",
+      "(Do Not Modify) Modified On",
+      "Name",
+      "Description",
+      "Photo",
+      "Type ID"
+    ],
+    "OriginalName": "MachineTypes",
+    "OriginalSchema": "*['(Do Not Modify) Machine Type':s, '(Do Not Modify) Modified On':d, '(Do Not Modify) Row Checksum':s, Description:s, Name:s, Photo:s, 'Type ID':n]",
+    "Schema": "*['(Do Not Modify) Machine Type':s, '(Do Not Modify) Modified On':d, '(Do Not Modify) Row Checksum':s, Description:s, Name:s, Photo:s, 'Type ID':n]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
