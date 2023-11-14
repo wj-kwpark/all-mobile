@@ -16,7 +16,7 @@ Screen1 As screen:
 
     Button1 As button:
         OnSelect: |+
-            =If(IsBlank(Search('daall.user', id.Text,"USER_ID")), Notify("NO"),Notify("YES"); Navigate('Main Screen') );
+            =If(IsEmpty(Search('daall.user', id.Text,"USER_ID")), Notify("NO"),Notify("YES"); Navigate('Main Screen') );
             Set(User, id.Text);
             
         Text: ="login"
