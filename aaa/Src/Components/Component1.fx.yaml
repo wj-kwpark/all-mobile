@@ -1,19 +1,22 @@
 Component1 As CanvasComponent:
     Fill: =RGBA(0, 18, 107, 1)
     Height: =App.Height-50
+    loginScreen: =App.ActiveScreen
+    mainScreen: =App.ActiveScreen
     Width: =App.Width/5
     X: =0
     Y: =0
     ZIndex: =1
 
     Button2 As button:
-        OnSelect: =App.ActiveScreen
+        OnSelect: =Navigate(Component1.loginScreen)
         Text: ="Login"
         X: =55
         Y: =205
         ZIndex: =1
 
     Button2_1 As button:
+        OnSelect: =Navigate(Component1.mainScreen)
         Text: ="Main"
         X: =55
         Y: =285
