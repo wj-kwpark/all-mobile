@@ -131,7 +131,7 @@
         Icon: =Icon.ChevronLeft
         OnSelect: =Back()
         Width: =50
-        X: =220
+        X: =520
         Y: =5
         ZIndex: =5
 
