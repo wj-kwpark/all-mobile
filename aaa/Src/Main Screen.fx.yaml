@@ -1,4 +1,5 @@
 "'Main Screen' As screen":
+    OnVisible: =
 
     "galMachineType As gallery.'BrowseLayout_Vertical_OneImageTwoColumnVariant_ver5.0'":
         Default: =First(MachineTypes)

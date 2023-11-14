@@ -130,8 +130,8 @@
     "UserLocale": "ko-KR"
   },
   "ScreenOrder": [
+    "Screen1",
     "Main Screen",
-    "Compare Screen",
-    "Screen1"
+    "Compare Screen"
   ]
 }

@@ -13,7 +13,9 @@ Screen1 As screen:
         ZIndex: =2
 
     Button1 As button:
-        OnSelect: =If(id.Text = "lala", Notify("YES"), Notify("NO") )
+        OnSelect: |-
+            =If(id.Text = "lala", Notify("YES"), Notify("NO") );
+            Set(User, id.Text);
         Text: ="login"
         X: =520
         Y: =520
