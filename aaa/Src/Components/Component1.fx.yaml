@@ -1,0 +1,21 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 18, 107, 1)
+    Height: =App.Height-50
+    Width: =App.Width/5
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button2 As button:
+        OnSelect: =
+        Text: ="Login"
+        X: =55
+        Y: =205
+        ZIndex: =1
+
+    Button2_1 As button:
+        Text: ="Main"
+        X: =55
+        Y: =285
+        ZIndex: =2
+
