@@ -4,7 +4,7 @@ Screen1 As screen:
         Default: =
         HintText: ="id"
         X: =440
-        Y: =244
+        Y: =240
         ZIndex: =1
 
     pw As text:
@@ -30,7 +30,7 @@ Screen1 As screen:
                     User,
                     id.Text
                 );
-                Navigate('Main Screen')
+                Navigate('Main Screen');
             );
             
         Text: ="login"
